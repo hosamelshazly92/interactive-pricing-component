@@ -92,3 +92,54 @@ hr {
   padding: 4px 10px;
   border-radius: 14px;
 }
+
+@media (max-width: 630px) {
+  .container {
+    margin: 32px 16px;
+  }
+
+  .top {
+    padding: 16px;
+    padding-top: 48px;
+    padding-bottom: 0;
+  }
+
+  .sectionFirst {
+    flex-direction: column;
+  }
+
+  .sectionSecond p,
+  .sectionSecond span {
+    font-size: 14px;
+  }
+
+  .sectionSecond p {
+    margin: 0;
+  }
+
+  .label {
+    display: none;
+  }
+
+  .sectionSecond {
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+
+  .bottom {
+    padding: 16px;
+    padding-top: 0;
+    padding-bottom: 48px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .cta {
+    margin-top: 32px;
+  }
+
+  hr {
+    margin: 32px 0;
+  }
+}

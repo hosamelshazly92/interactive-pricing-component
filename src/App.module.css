@@ -2,12 +2,39 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: #8b90a4;
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .container {
-  height: 100vh;
   background-image: url("./images/bg-pattern.svg");
   background-repeat: no-repeat;
   background-position: top;
-  background-size: 100vw 50vh;
+  background-size: 100vw 80vh;
+}
+
+.section {
+  background-image: url("./images/pattern-circles.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px;
+  padding-top: 80px;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: bold;
+  color: #2e3453;
+}
+
+.paragraph {
+  margin-top: 16px;
+}
+
+.bottom {
+  background-color: #fff;
 }
